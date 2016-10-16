@@ -13,7 +13,7 @@ Na moim Raspberry pi adres do pliku pogoda.php wygląda tak: http://localhost/po
 
 Wynik powinien pokazać się mniej więcej taki:
 
-Aktualna pogoda to 9°C, Pochmurno z przejaśnieniami, a ciśnienie wynosi 1032hPa.
+"Aktualna pogoda to 9°C, Pochmurno z przejaśnieniami, a ciśnienie wynosi 1032hPa."
 
 Czyli mamy tekst do przeczytania przez google TTS.
 
