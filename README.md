@@ -5,7 +5,15 @@ Za pomocą serwisu OPENWEATHERMAP możemy pobierać aktualne dane o pogodzie na 
 
 Wystarczy przygotować parę odpowiednich plików by cieszyć się informacjami o pogodzie wymawianymi przez raspberry pi poprzez głośniki podłączone do jacka audio.
 
-Potrzebne do tego zadania jest napisanie prostego skryptu np. pogoda.php gdzie raspberry pi będzie zamieniał pobrane dane z API openweathermap na tekst czytelny dla człowieka czyli dla google TTS (pani czytająca po polsku i nie tylko)
+Potrzebne do tego zadania jest zainstalowany serwer APACHE2 + PHP5, napisanie prostego skryptu np. pogoda.php gdzie raspberry pi będzie zamieniał pobrane dane z API openweathermap na tekst czytelny dla człowieka czyli dla google TTS (pani czytająca po polsku i nie tylko)
+
+Na moim Raspberry pi adres do pliku pogoda.php wygląda tak: http://localhost/pogoda.php 
+
+Wynik powinien pokazać się mniej więcej taki:
+
+Aktualna pogoda to 9°C, Pochmurno z przejaśnieniami, a ciśnienie wynosi 1032hPa.
+
+Czyli mamy tekst do przeczytania przez google TTS.
 
 Następnie należy napisać również prosty skrypt bash np. pogoda.sh który wykorzysta przetworzone dane w pliku pogoda.php i przetworzy to na mowę.
 
