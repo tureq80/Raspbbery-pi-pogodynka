@@ -17,9 +17,9 @@ Wynik powinien pokazać się mniej więcej taki:
 
 Czyli mamy tekst do przeczytania przez google TTS.
 
-Aby przetestować czy Raspberry pi potrafi wykorzystać google TTS proponuje wkleić coś takiego do konsoli pi
+Aby przetestować czy Raspberry pi potrafi wykorzystać google TTS proponuje wkleić coś takiego do konsoli:
 
-pi@raspberrypi ~ $ wget -q -U Mozilla -O mowa.mp3 "http://translate.google.com/translate_tts?ie=UTF-8&total=1&idx=0&textlen=32&client=tw-ob&q='dziś jest ładna pogoda'&tl=Pl-pl" && mplayer mowa.mp3
+<code>wget -q -U Mozilla -O mowa.mp3 "http://translate.google.com/translate_tts?ie=UTF-8&total=1&idx=0&textlen=32&client=tw-ob&q='dziś jest ładna pogoda'&tl=Pl-pl" && mplayer mowa.mp3</code>
 
 Powinieneś usłyszeć piękną polską mowę przetworzoną przez google TTS.
 
