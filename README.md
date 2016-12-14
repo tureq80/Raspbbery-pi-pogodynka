@@ -25,6 +25,8 @@ Powinieneś usłyszeć piękną polską mowę przetworzoną przez google TTS.
 
 Teraz już z górki, należy napisać również prosty skrypt bash np. pogoda.sh, który wykorzysta przetworzone dane w pliku pogoda.php i przetworzy to na mowę.
 
+Dodatkowo proponuję dodać zadanie w CRON aby w dni robocze o godzinie 7:00 rano Rpi powiedziało jaka jest aktualna pogoda w Twoim regionie. Takie coś budzi mnie od poniedziałku do piątku by wstać do pracy :) 
+
 # API OpenWeatherMap.org
 
 Zarejestruj się by zdobyć dostęp do danych : http://openweathermap.org/appid
